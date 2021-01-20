@@ -4,51 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This is me</title>
+    <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-    <nav class="nav container">
+    <nav class="nav container" >
         <div class="brand">Techsite</div>
         <ul class="nav-allign">
-            <li class="nav-list-inline">Home</li>
-            <li class="nav-list-inline">Project</li>
-            <li class="nav-list-inline">About Me</li>
+            <li class="nav-list-inline">
+                <a class="link active"href="/">Home</a>
+            </li> 
+            <li class="nav-list-inline" >
+                <a class="link" href="/">Project</a>
+            </li>
+            <li class="nav-list-inline" >
+                <a class="link" href="/">About Me</a>
+            </li>
         </ul>
     </nav>
-    <header class="header container">
-        <img class="image" src="images/undraw_design_components_9vy6 (1).svg">
-        <h4>Hello, I'm <strong>Trilochan Sahoo</strong> and this is my Portfolio. Here you can see all my projects ,blogs and other details about me.</h4>
-    </header>
-    <hr>
     
-    <section class="section container">
-        <h2 class="section-heading">Skills</h2>
-        <p>I'm familar with :
-            Language: Python, C
-            Web: HTML5, CSS3, JavaScript, NodeJS, React
-            Database: MySQL
-            VCS: Git, Github
-            Web Hosting: Netlify
-            </p>
-    </section>
-    <section class="section container">
-        <h2 class="section-heading">Projects</h2>
-        <p>Heyy I hosted some online projests.You can check it out!</p>       
-        <a class="link link-primary" href="/">Primary link</a>
-    </section>
-    <section class="section container">
-        <h2 class="section-heading">Blogs</h2>
-        <p>I love reading and writing new techs. Here are some posts...</p>
-        <a class="link link-primary" href="/">Primary link</a>
-    </section>
-    <hr>
+        <header class="header container">
+            <img class="image" src="images/undraw_mobile_prototyping_grmd.svg">
+            <div class="header-details">Hello,<span class="span"> <br>I'm <strong>Trilochan Sahoo</strong></span> <br> this is my Portfolio. Here you can see all my projects ,blogs and other details about me.</div>
+        </header>
+        <hr>
+    <div class="middle-second">  
+        <div class="box">
+            <section class="section container">
+                <h2 class="section-heading skill">Skills</h2>
+                <p><strong>I'm familar with :</strong> <br>
+                    Language: Python, C<br>
+                    Web: HTML5, CSS3, JavaScript, NodeJS, React<br>
+                    Database: MySQL<br>
+                    VCS: Git, Github<br>
+                    Web Hosting: Netlify
+                    </p>
+            </section>
+        </div>
+        <div class="box">
+            <section class="section container">
+                <h2 class="section-heading">Projects</h2>
+                <p>Heyy I hosted some online projests.You can check it out!</p>       
+                <a class="link link-primary" href="/">Projects</a>
+            </section>
+        </div>
+        <div class="box">
+            <section class="section container">
+                <h2 class="section-heading">Blogs</h2>
+                <p>I love reading and writing new techs. Here are some posts...</p>
+                <a class="link link-primary" href="/">Blogs</a>
+            </section>
+        </div>
+    </div>
+    
     <footer class="footer container">
-        <div class="footer footer-heading"><strong>This will be footer</strong></div>
+        <div class="footer footer-heading">||   Copyright © 2021 || Bhubaneswar ||   All rights reserved.  ||</div>
         <ul>
-            <a class="link footer" href="/">Instagram</a>
-            <a class="link footer" href="/">Github</a>
-            <a class="link footer" href="/">Linkdin</a>
-            <a class="link footer" href="/">Facebook</a>
+            <a class="link footer" href="/" >
+                <img class="footer-image" src="images/gmail.svg"></a>
+                <a class="link footer" href="/">
+                <img class="footer-image" src="images/github.svg"></a>
+                <a class="link footer" href="/"><img class="footer-image" src="images/linkedin.svg"></a>
+                <a class="link footer" href="/">
+                <img class="footer-image" src="images/instagram.svg"></a>
+                <a class="link footer" href="/">
+                    <img class="footer-image" src="images/facebook.svg"></a>
         </ul>
+        
     </footer>
     
 </body>
