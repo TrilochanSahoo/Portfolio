@@ -5,7 +5,7 @@
     --primary-color: rgb(14, 12, 12);
     --middle-color:rgb(207, 203, 203);
     --ow-color:rgb(221, 221, 221);
-    --ew-color:rgb(235, 235, 235);
+    --ew-color:rgb(247, 247, 247);
     
 }
 
@@ -13,6 +13,12 @@ body{
     font-family: sans-serif;
     display: block;
     margin: 2px;
+}
+
+.blog-heading{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 hr{
@@ -52,12 +58,12 @@ hr{
 .nav-list-inline{
     padding:0rem 0.2rem;
     display: inline;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .nav .active{
     font-weight: bold;
     color: aliceblue;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 .top{
@@ -78,10 +84,12 @@ hr{
 .header-details{
     font-family: 'Playfair Display', serif;
     padding: 2rem 0rem;
+    font-size: 1.2rem;
 }
 
 .middle{
     font-size: 1.3rem;
+    padding: 4rem 0rem;
 }
 
 .span{
@@ -111,7 +119,7 @@ hr{
     font-size: 1.3rem solid;
     position: relative;
     width: calc(400px - 70px);
-    height: calc(300px - 50px);
+    height: calc(300px - 20px);
     background: linear-gradient(to bottom right, #8ea8cc 0%, #28292f 100%);
 
     float: left;
@@ -124,7 +132,7 @@ hr{
     text-decoration: none;
     padding: 0.4rem 1rem;
     margin: auto;
-
+    font-size: 1.3rem;
 }
 
 .link-primary{
@@ -149,10 +157,14 @@ hr{
     font-family: 'EB Garamond', serif;
 }
 
+p{
+    font-size: 1.3rem;
+}
+
 .ow{
     background-color: var(--ow-color);
-    height: 170px;
-    margin: 24px auto;
+    height: 200px;
+    margin: 3rem auto;
     padding-top: 1rem ;
     border-radius: 10px;
     
@@ -160,14 +172,28 @@ hr{
 
 .ew{
     background-color: var(--ew-color);
-    height: 170px;
-    margin: 24px auto;
+    height: 200px;
+    margin: 3rem auto;
     padding-top: 1rem ;
     border-radius: 10px;
 }
+.about-ow{
+    background-color: var(--ow-color);
+    padding: 2rem;
+    margin-top: 0.4rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.about-ew{
+    background-color: var(--ew-color);
+    padding: 2rem;
+    margin-top: 0.4rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
 
 .section-heading{
-    font-size: 1.7rem;
+    font-size: 1.8rem;
 }
 
 .section-content{
@@ -183,6 +209,15 @@ hr{
     border-top-right-radius: 1rem;
     text-align: center;
 
+}
+.footer-top{
+    margin-top: 0.5rem;
+    background-color: rgb(46, 46, 46);
+    color: honeydew;
+    padding:0.5rem 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
 }
 
 .footer-heading{
