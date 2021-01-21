@@ -21,6 +21,10 @@ body{
     font-weight: bold;
 }
 
+nav{
+    display: block;
+}
+
 hr{
     margin-block-start:0rem;
     margin-block-end:0rem;
